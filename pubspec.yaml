@@ -1,0 +1,40 @@
+name: brainbinary_structure
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # api calling
+  http: ^0.13.3
+
+  # MMVM architecture
+  stacked: ^2.1.8
+
+  # state management
+  get: ^4.1.4
+
+  build_runner: ^1.10.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/icons/bottom_bar/
+    - assets/icons/item_action/
+    - assets/images/
